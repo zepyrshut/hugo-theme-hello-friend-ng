@@ -9,17 +9,16 @@ other = "Traducciones"
 [postAvailable]
 other = "También disponible en"
 
-
 # 404.html
 #
 [archives]
 other = "Archivo"
 
 [home]
-other = "Home"
+other = "Inicio"
 
 [notFound]
-other = "Oops, página no encontrada…"
+other = "Oops, página no encontrada"
 
 
 # posts/single.html
@@ -32,8 +31,8 @@ other = "{{ .Count }} minutos"
 other = "Tabla de Contenido"
 
 [wordCount]
-one   = "Una Palabra"
-other = "{{ .Count }} Palabras"
+one   = "Una palabra"
+other = "{{ .Count }} palabras"
 
 [lastModified]
 other = "Ultima actualización"

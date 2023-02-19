@@ -8,6 +8,10 @@
     max-width: 600px;
   }
 
+  p {
+    margin-bottom: 0.5em;
+  }
+
   &-date {
     &:after {
       content: '—';
@@ -39,6 +43,40 @@
 
   &-content {
     margin-top: 30px;
+
+    a {
+      position: relative;
+    }
+
+    a::before {
+      content: '';
+      @media (prefers-color-scheme: light) {
+        background-color: $light-link-color;
+      }
+      @media (prefers-color-scheme: dark) {
+        background-color: $dark-link-color;
+      }
+      [data-theme=light] & {
+        background-color: $light-link-color;
+      }
+      [data-theme=dark] & {
+        background-color: $dark-link-color;
+      }
+      position: absolute;
+      left: 0;
+      bottom: 3px;
+      width: 100%;
+      height: 6px;
+      z-index: -1;
+      transition: all .3s ease-in-out;
+    }
+
+
+
+    a:hover::before {
+      bottom: 0;
+      height: 100%;
+    }
   }
 
   &-cover {
