@@ -10,12 +10,7 @@ min_version = 0.30
   name = "Pedro Pérez"
   homepage = "https://pedroperez.dev"
 
-[author]
-  name = "Djordje Atlialp"
-  homepage = "https://atlialp.com"
-  twitter = "https://twitter.com/rhazdon"
-
 [original]
-  name = "hello-friend"
-  homepage = "https://github.com/panr/hugo-theme-hello-friend"
-  repo = "https://github.com/panr/hugo-theme-hello-friend"
+  name = "hello-friend and hello-friend-ng"
+  homepage = "https://github.com/rhazdon/hugo-theme-hello-friend-ng"
+  repo = "https://github.com/rhazdon/hugo-theme-hello-friend-ng"
